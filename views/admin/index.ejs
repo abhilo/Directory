@@ -1,0 +1,28 @@
+<h3> Sign in. </h3>
+
+
+
+<form action="/admin" method="POST">
+    <label for="email"> E-mail Address </label>
+    <input type="text" placeholder="Enter email." name="email">
+    <label for="password"> Password </label>
+    <input type="text" placeholder="Enter password." name="password">
+
+    <input type="submit" value="Login" class="btn">
+
+
+</form>
+
+
+<h3> Register </h3>
+<!-- when submit is clicked, action directs to admin page, which makes a request to the server from our routes we can access the body -->
+<form action="/register" method="POST">  
+    <label for="email"> E-mail Address </label>
+    <input type="text" placeholder="Enter email." name="email">
+    <label for="password"> Password </label>
+    <input type="text" placeholder="Enter password." name="password">
+
+    <input type="submit" value="Register" class="btn">
+
+
+</form>
